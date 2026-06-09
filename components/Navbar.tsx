@@ -25,7 +25,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
         <h2 className="font-bold text-2xl bg-gradient-to-r from-white to-purple-400 bg-clip-text text-transparent">
-          Madhu
+          Madhusudhan Reddy Yeddula
         </h2>
         <nav className="hidden md:flex gap-8">
           {links.map((link) => (
