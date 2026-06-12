@@ -9,7 +9,8 @@ const projects = [
     tech: ["React", "Next.js", "MUI", "Redux", "WebSockets", "MongoDB"],
     features: ["Real-time Chat", "Role-based Access", "JWT Auth", "Dashboard Analytics"],
     github: "https://github.com/madhusudhanreddyy/kreat",
-    demo: "https://kreat-demo.vercel.app",
+    // demo: "https://kreat-demo.vercel.app",
+    demo: "https://kreat.ai/kraft/",
     gradient: "from-blue-500/20 to-cyan-500/20",
     stars: 12,
     category: "Enterprise"
@@ -20,7 +21,7 @@ const projects = [
     tech: ["React", "Next.js", "Redux", "REST APIs", "SEO"],
     features: ["SEO Optimized", "Product Listings", "Order Management", "Admin Panel"],
     github: "https://github.com/madhusudhanreddyy/artfulte",
-    demo: "https://artfulte-demo.vercel.app",
+    demo: "https://www.artflute.com/",
     gradient: "from-purple-500/20 to-pink-500/20",
     stars: 8,
     category: "E-commerce"
@@ -31,7 +32,7 @@ const projects = [
     tech: ["React.js", "MUI", "Redux", "Microservices", "JWT"],
     features: ["Microfrontend", "JWT Auth", "Dynamic Forms", "Error Handling"],
     github: "https://github.com/madhusudhanreddyy/hiki",
-    demo: "https://hiki-demo.vercel.app",
+    // demo: "https://hiki-demo.vercel.app",
     gradient: "from-green-500/20 to-emerald-500/20",
     stars: 15,
     category: "Microservices"
@@ -42,7 +43,7 @@ const projects = [
     tech: ["Next.js", "Node.js", "AI APIs", "MongoDB", "Tailwind"],
     features: ["AI Integration", "Conversation Memory", "Streaming", "Auth System"],
     github: "https://github.com/madhusudhanreddyy/ai-chatbot",
-    demo: "https://ai-chatbot-demo.vercel.app",
+    // demo: "https://ai-chatbot-demo.vercel.app",
     gradient: "from-orange-500/20 to-red-500/20",
     stars: 25,
     category: "AI/ML"
@@ -85,10 +86,10 @@ export default function Projects() {
               >
                 {/* Glow effect on hover */}
                 <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} rounded-2xl blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
-                
+
                 {/* Main Card */}
                 <div className="relative backdrop-blur-xl bg-gradient-to-br from-white/5 to-white/2 border border-white/10 rounded-2xl p-6 hover:border-purple-500/50 transition-all duration-300 hover:-translate-y-2 overflow-hidden">
-                  
+
                   {/* Category Badge */}
                   <div className="absolute top-4 right-4">
                     <span className="text-xs px-2 py-1 rounded-full bg-purple-500/20 border border-purple-500/30 text-purple-300">
@@ -176,7 +177,7 @@ export default function Projects() {
 
                   {/* View Details Button */}
                   <div className="mt-6 pt-4 border-t border-white/10">
-                    <button 
+                    <button
                       onClick={() => window.open(project.demo, "_blank")}
                       className="w-full py-2 rounded-lg bg-gradient-to-r from-blue-500/10 to-purple-500/10 text-purple-400 text-sm font-medium hover:from-blue-500/20 hover:to-purple-500/20 transition-all duration-300"
                     >
@@ -199,7 +200,7 @@ export default function Projects() {
             viewport={{ once: true }}
             className="text-center mt-12"
           >
-            <button 
+            <button
               onClick={() => window.open("https://github.com/madhusudhanreddyy", "_blank")}
               className="px-8 py-3 rounded-xl bg-gradient-to-r from-blue-500 to-purple-500 font-semibold hover:scale-105 transition-all duration-300 shadow-lg shadow-purple-500/25"
             >
